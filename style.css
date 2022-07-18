@@ -9,6 +9,10 @@ body {
     position: relative;
 }
 
+.paddingtop {
+    padding-top: 50px;
+}
+
 img {
     max-width: 100%;
 }
@@ -50,7 +54,7 @@ p {
 header {
     width: 100vw;
     position: fixed;
-    padding: 20px 15px;
+    padding: 20px 25px;
     z-index: 100;
 }
 
@@ -75,7 +79,7 @@ button:hover {
 }
 
 .startwidth {
-    width: 190px;
+    width: 95%;
 }
 
 main {
@@ -99,8 +103,9 @@ main {
 }
 
 h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 75px;
+    margin-bottom: 70px;
+    font-weight: 900;
 }
 
 h2 {
@@ -118,10 +123,6 @@ h6 {
     margin-bottom: 40px;
 }
 
-.block {
-    margin-top: 50px;
-}
-
 .sect1left {
     flex-basis: 50%;
 }
@@ -132,38 +133,46 @@ h6 {
 }
 
 .jumbo {
-    width: 100%;
     height: 120%;
 }
 
 .radio {
     margin-right: 25px;
-    margin-bottom: 90px;
 }
 
 .containercolonne {
-    width: calc(100% / 3 - 5px);
+    margin-right: 20px;
+    width: calc(100% / 3 - 20px);
 }
 
 .colonna {
     width: 100%;
-    margin-right: 5px;
-    height: 800px;
+    height: 1100px;
     border: 0.5px solid grey;
     border-top: none;
-    padding: 10px;
+    padding: 30px;
 }
 
 .intestazionecolonna {
     width: 100%;
     border: 0.5px solid grey;
+    text-align: center;
+    padding: 10px;
 }
 
 .description {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: calc(100% / 5 - 20px);
+    padding-bottom: 60px;
+}
+
+.description>div {
+    padding-bottom: 30px;
+}
+
+.description>hr {
+    padding-bottom: 0;
+    width: 80px;
 }
 
 .subtitle {
@@ -245,10 +254,10 @@ li {
 .stylelink {
     color: #2941f5;
     text-decoration: underline;
+    margin: 5px;
 }
 
 .vw {
-    max-width: 100vw;
     padding-top: 200px;
 
 }
@@ -364,16 +373,14 @@ footer {
 .hrfoot {
     color: white;
     margin: 50px 0;
-
-}
-
-.containerhr {
     width: 150px;
+
 }
 
 .fa-earth-americas {
     color: white;
     padding-right: 10px;
+
 }
 
 #lang {
