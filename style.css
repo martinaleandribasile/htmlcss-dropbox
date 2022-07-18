@@ -9,6 +9,10 @@ body {
     position: relative;
 }
 
+img {
+    max-width: 100%;
+}
+
 p {
     font-size: large;
     font-weight: 400;
@@ -29,6 +33,10 @@ p {
 
 .spacebetween {
     justify-content: space-between;
+}
+
+.justifycenter {
+    justify-content: center;
 }
 
 .spacearound {
@@ -247,6 +255,7 @@ li {
 
 .square {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
 }
 
 .central {
@@ -254,13 +263,9 @@ li {
     background-color: #f5f5f5;
 }
 
-.central>* {
-    padding: 30px;
-}
-
 .quadratino {
-    width: calc(100% / 2);
-    aspect-ratio: 1/1;
+    width: 50%;
+    height: 50%;
     justify-content: center;
     align-items: center;
 }
@@ -300,4 +305,80 @@ li {
 
 .h {
     background-color: #ffd830;
+}
+
+.testoprovagratuita {
+    flex-basis: 500px;
+    margin-right: 200px;
+    color: maroon;
+}
+
+.sizebutton {
+    border: none;
+    padding: 10px 50px;
+
+}
+
+.bgc {
+    background-color: #b4d0e7;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.listask>li {
+    margin-bottom: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.asking {
+    position: relative;
+}
+
+.asking>i {
+    position: absolute;
+    right: 0%;
+}
+
+.ask {
+    padding-bottom: 200px;
+}
+
+footer {
+    background-color: black;
+    padding-top: 50px;
+}
+
+.columnfooter>* {
+    color: white;
+}
+
+.footerlistcont>li>* {
+    color: white;
+}
+
+.footerlistcont>li>a {
+    margin: 0;
+}
+
+.hrfoot {
+    color: white;
+    margin: 50px 0;
+
+}
+
+.containerhr {
+    width: 150px;
+}
+
+.fa-earth-americas {
+    color: white;
+    padding-right: 10px;
+}
+
+#lang {
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: large;
 }
