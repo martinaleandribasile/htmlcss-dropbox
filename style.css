@@ -146,7 +146,6 @@ h6 {
 }
 
 .containercolonne {
-    margin-right: 20px;
     width: calc(100% / 3 - 20px);
 }
 
