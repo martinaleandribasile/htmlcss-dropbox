@@ -323,6 +323,7 @@ li {
 
 .quadratino>img {
     width: 40%;
+    filter: invert();
 }
 
 .a {
