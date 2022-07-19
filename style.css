@@ -162,6 +162,10 @@ h6 {
     margin-right: 25px;
 }
 
+.radio>input {
+    margin-right: 15px;
+}
+
 .containercolonne {
     width: calc(100% / 3 - 20px);
 }
@@ -286,7 +290,7 @@ li {
 }
 
 .vw {
-    width: 100wv;
+    width: 100%;
     padding-top: 200px;
 
 }
