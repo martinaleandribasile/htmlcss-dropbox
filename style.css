@@ -323,6 +323,10 @@ li {
 
 .a {
     background-color: #a2d39b;
+
+}
+
+.a:hover {
     border: 15px solid #d1e9cd;
 }
 
@@ -330,28 +334,56 @@ li {
     background-color: #61082b;
 }
 
+.b:hover {
+    border: 15px solid #de84a5;
+}
+
 .c {
     background-color: #0093ce;
+}
+
+.c:hover {
+    border: 15px solid #a3d2e4;
 }
 
 .d {
     background-color: #ff1c1c;
 }
 
+.d:hover {
+    border: 15px solid #fba7a7;
+}
+
 .e {
     background-color: #d5001f;
+}
+
+.e:hover {
+    border: 15px solid #8e4651;
 }
 
 .f {
     background-color: #b4d0e7;
 }
 
+.f:hover {
+    border: 15px solid #d5dee6;
+}
+
 .g {
     background-color: #0d2481;
 }
 
+.g:hover {
+    border: 15px solid #3c4776;
+}
+
 .h {
     background-color: #ffd830;
+}
+
+.h:hover {
+    border: 15px solid #fbedaf;
 }
 
 .testoprovagratuita {
