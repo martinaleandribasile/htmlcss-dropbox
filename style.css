@@ -123,13 +123,18 @@ h6 {
     flex-basis: 50%;
 }
 
+.sect1left>p {
+    padding-top: 70px;
+}
+
 .fa-arrow-down {
     font-size: xx-large;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 .jumbo {
-    height: 120%;
+    position: relative;
+    top: 70px;
 }
 
 .radio {
